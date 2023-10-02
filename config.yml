@@ -1,0 +1,108 @@
+#Mysql设置
+Mysql:
+  Use: true
+  Host: "localhost"
+  Port: "3306"
+  DataBase: "mc"
+  User: "root"
+  PassWord: ""
+#Gui设置
+Gui:
+  Title: "&0[ &e个人属性面板 &0]"
+  Item:
+    Material: 403
+    Data: 0
+    DisplayName: "&6[ &f&l个人属性 &6]"
+    Lore: 
+      - "&e血量: &f%health%"
+      - "&e百分比血量加成: &f%percent_health%"
+      - "&e攻击: &f%attack%"
+      - "&e防御: &f%defense%"
+      - "&e命中: &f%hit%"
+      - "&e闪避: &f%dodge%"
+      - "&e会心: &f%knowing%"
+      - "&e会心防御: &f%knowing_defense%"
+      - "&c&l&m一&6&l&m一&e&l&m一&b&l&m一&e&l&m一&6&l&m一&c&l&m一"
+      - "&e力量: &f%strenth%"
+      - "&e韧性: &f%toughness%"
+      - "&e体力: &f%physical_power%"
+      - "&e身法: &f%body%"
+      - "&e定力: &f%ability%"
+      - "&c&l&m一&6&l&m一&e&l&m一&b&l&m一&e&l&m一&6&l&m一&c&l&m一"
+      - "&e主属性加成: &f%attribute_type%"
+      - "&e冰攻: &f%ice%"
+      - "&e冰抗: &f%ice_defense%"
+      - "&e火攻: &f%fire%"
+      - "&e火抗: &f%fire_defense%"
+      - "&e玄攻: &f%xuan%"
+      - "&e玄抗: &f%xuan_defense%"
+      - "&e毒攻: &f%poison%"
+      - "&e毒抗: &f%poison_defense%"
+      - "&e最低伤害: &f%lowest_damage%"
+  Potential:
+    Title: "&0[ &e潜力点面板 &0]"
+    Items:
+      Strenth:
+        Material: 403
+        Data: 0
+        DisplayName: "&6[ &f&l力量 &6]"
+        Lore: 
+          - "&e点击后将永久增加1点力量!"
+      Toughness:
+        Material: 403
+        Data: 0
+        DisplayName: "&6[ &f&l韧性 &6]"
+        Lore: 
+          - "&e点击后将永久增加1点韧性!"
+      Ability:
+        Material: 403
+        Data: 0
+        DisplayName: "&6[ &f&l定力 &6]"
+        Lore: 
+          - "&e点击后将永久增加1点定力!"
+      Body:
+        Material: 403
+        Data: 0
+        DisplayName: "&6[ &f&l身法 &6]"
+        Lore: 
+          - "&e点击后将永久增加1点身法!"
+      PhysicalPower:
+        Material: 403
+        Data: 0
+        DisplayName: "&6[ &f&l体力 &6]"
+        Lore: 
+          - "&e点击后将永久增加1点体力!"
+      About:
+        Material: 345
+        Data: 0
+        DisplayName: "&6[ &f&l潜力点查询 &6]"
+        Lore:
+          - "&e用户名: &f%player_name%"
+          - "&e潜力点: &f%point%"
+          - ""
+          - "&e血量: &f%health%"
+          - "&e百分比血量加成: &f%percent_health%"
+          - "&e攻击: &f%attack%"
+          - "&e防御: &f%defense%"
+          - "&e命中: &f%hit%"
+          - "&e闪避: &f%dodge%"
+          - "&e会心: &f%knowing%"
+          - "&e会心防御: &f%knowing_defense%"
+          - "&e力量: &f%strenth%"
+          - "&e韧性: &f%toughness%"
+          - "&e体力: &f%physical_power%"
+          - "&e身法: &f%body%"
+          - "&e定力: &f%ability%"
+          - "&e最低伤害: &f%lowest_damage%"
+#每多少秒进行一次数据统计
+Time: 5
+#玩家每升一级将会得到的潜力点
+Potential: 2
+#显示debug信息
+Debug: true
+#主属性类型
+Type:
+  ICE: 1.5
+  FIRE: 1.5
+  XUAN: 1.5
+  POISON: 1.5

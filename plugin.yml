@@ -1,0 +1,8 @@
+name: Attribute
+main: me.may.attribute.Entry
+version: 1.2
+author: [May_Speed]
+depend: [SkillAPI,RPGInventory]
+commands:
+  attribute:
+    aliases: [att, attri]
